@@ -75,3 +75,79 @@ h6{
 i{
     font-size: 50px;
 }
+
+
+
+
+.heb-icon{
+    height: 35px;
+    width: 35px;
+    align-self: flex-end;
+}
+
+/* Animations Of Icons */
+
+.devicon-html5-plain:hover {
+    transform: scale(1.2);
+    color: #f06529;
+}
+
+.devicon-css3-plain:hover{
+    transform: scale(1.2);
+    color: #264de4;
+}
+
+.devicon-javascript-plain:hover{
+    transform: scale(1.2);
+    color: #f0db4f;
+}
+
+.devicon-bootstrap-plain:hover{
+    transform: scale(1.2);
+    color: #563d7c;
+}
+
+.devicon-git-plain:hover{
+    transform: scale(1.2);
+    color: #F1502F;
+}
+
+.devicon-jest-plain:hover{
+    transform: scale(1.2);
+    color: #99424F;
+}
+
+.devicon-mocha-plain:hover{
+    transform: scale(1.2);
+    color: #8D6748;
+}
+
+.devicon-nodejs-plain:hover{
+    transform: scale(1.2);
+    color: #3C873A;
+}
+
+.devicon-npm-original-wordmark:hover{
+    transform: scale(1.2);
+    color: #CC3534;
+}
+
+.devicon-react-original:hover{
+    transform: scale(1.2);
+    color: #61DBFB;
+}
+
+.devicon-sass-original:hover{
+    transform: scale(1.2);
+    color: #CD6799;
+}
+
+.devicon-typescript-plain:hover{
+    transform: scale(1.2);
+    color: #007acc;
+}
+
+.devicon-vscode-plain:hover{
+    transform: scale(1.2);
+    color: #0078d7;
+}
