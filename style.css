@@ -60,3 +60,18 @@ p {
     background-color: #38383b;
     font-size: 5px;
 }
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row
+}
+h6{
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+i{
+    font-size: 50px;
+}
