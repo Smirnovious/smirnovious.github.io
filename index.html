@@ -15,17 +15,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;600;700&display=swap" rel="stylesheet">    
-    <title>Alexander Smirnov</title>
+    <script src="script.js"></script>
+    <title>Front-End Alex</title>
 </head>
 <body>
     <!--Navigation-->
     <div class="navigation">
-        <img src="/Resources/israel icon.png" alt="" class="heb-icon">
+        <a href=""><img src="/Resources/israel icon.png" alt="" id="heb-icon"></a>
     <nav>
         <ul>
             <li><a href="#aboutme">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#">Contact</a></li>
             
         </ul>
@@ -46,13 +47,15 @@
             <img src="/Resources/fist bump.png" alt="" class="bitmoji1Img animate__animated animate__bounceIn animate__delay-1s">
         </div>
     </div>
-
+    
     <!--About Me-->
     <div id="aboutme"></div>
+    <br> 
+    <div></div>
     
     <h1>About Me</h1>
 <div class="aboutMe-container">
-    <div class="about">
+    <div id="about">
         <p>A curiosity-driven Front-End Developer.
             <br>
             I'm passionate about bringing both the technical and visual aspects of digital products to life.
@@ -65,15 +68,15 @@
             Certificated of Front-End Development/Engineering  from CodeCademy 
         </p>
     </div>
-    <div class="realMe">
-        <div class="ProfileCard" >
+    <div id="realMe" onmouseover="myFunction()" onmouseout="myFunction2()">
+        <div class="ProfileCard">
             <div class="circleProfile">
                 <img src="/Resources/profilepic.jpg" alt="ProfilePic" class="logoProfile">
             </div>
             <div class="contentProfile">
-                <h2>Who is Alex?</h2>
-                <h5 class="profileText">Besides Coding</h5>
-                <p class="profileText">I have a BA in Film & Television from Tel-Aviv University </p>
+                <h2>Who is Alex?</h2><h5 class="profileText">Besides Coding</h5>
+                <p class="profileText">Deep down in my heart i am just a kid who likes to goof around (just like with these bitmojis), but when it comes to work - I'm all In.
+            Before Coding Bootcamp, I studied Screenwriting and I have a BA in Film & Television from Tel-Aviv University. I was and always will be an artistic person, viewing life one story at a time. </p>
                 <a href="#">Wanna Know More?</a>
             </div>
             <img src="/Resources/profilepic.jpg" alt="ProfilePic2" class="ProfileImg">
@@ -90,6 +93,7 @@
 <br>
 <div class="skills-section">
     <h1>SKILLS & TOOLS</h1>
+    
     <p>These are the Skills & Tools I use to bring an Idea to life. 
         <br>
         From Vanilla tools through Version Control and Testing, all the way with Advanced Frameworks</p>
@@ -108,6 +112,8 @@
         <i class="devicon-typescript-plain"><h6 class="Skillz-font">TYPESCRIPT</h6></i>
     </div>
 </div>
+    <div id="projects"></div>
+    <br>
     <h1>PROJECTS</h1>
     <div class="projectContatiner">
     <!--BlackJack-->
