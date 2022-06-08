@@ -14,25 +14,39 @@
     <title>Alexander Smirnov</title>
 </head>
 <body>
+    <!--Navigation-->
     <div class="navigation">
     <nav>
         <ul>
-            <li><a href="#">About</a></li>
+            <li><a href="#aboutme">About</a></li>
             <li><a href="#">Projects</a></li>
             <li><a href="#">Contact</a></li>
             <img src="/Resources/israel icon.png" alt="" class="heb-icon">
         </ul>
     </nav>
 </div>
-    <div class="container">
-        <p class="header">My name is Alex Smirnov. I am a Front End Developer, based in Tel-Aviv, IL.</p>
-        <img src="/Resources/profilepic.jpg" alt="" id="profilepic">
+
+    <!--Intro-->
+    <div class="intro-container">
+        <div class="hi-section">
+            <h1>Hi!</h1>
+            <p class="myNameText">My name is Alex Smirnov, And I am a
+                 Front End Developer, based in Tel-Aviv, IL.</p>
+        </div> 
+
+        <div class="bitmoji-section">
+            <img src="/Resources/fist bump.png" alt="" class="bitmoji1Img">
+        </div>
     </div>
+
+    <!--About Me-->
+    <h1 id="aboutme">About Me</h1>
+<div class="aboutMe-container">
     <div class="about">
-        <p>About me:</p>
         <p>A curiosity-driven Front-End Developer.
             <br>
             I'm passionate about bringing both the technical and visual aspects of digital products to life.
+            <br>
             User experience, beautiful pixels and writing clean accessible, human code matters to me.
             <br>
             I'm happiest when I'm creating, learning, exploring and thinking about how to make things better.
@@ -42,7 +56,26 @@
             
         </p>
     </div>
+    <div class="realMe">
+        <div class="ProfileCard" >
+            <div class="circleProfile">
+                <img src="/Resources/profilepic.jpg" alt="ProfilePic" class="logoProfile">
+            </div>
+            <div class="contentProfile">
+                <h2>BlackJack Game</h2>
+                <p>A BlackJack game I built using React</p>
+                <a href="#">View Project</a>
+            </div>
+            <img src="/Resources/walking.png" alt="ProfilePic2" class="ProfileImg">
+        </div>
+    </div>
+</div>
+
+<div class="skills-section">
     <h1>SKILLS & TOOLS</h1>
+    <p>These are the Skills & Tools I use to bring an Idea to life.
+        <br>
+        From Vanilla tools through Version Control and Testing, all the way with Advanced Frameworks</p>
     <div class="skills">
         <i class="devicon-html5-plain"><h6 class="Skillz-font">HTML 5</h6></i>
         <i class="devicon-css3-plain"><h6 class="Skillz-font">CSS 3</h6></i>
@@ -56,8 +89,8 @@
         <i class="devicon-react-original"><h6 class="Skillz-font">REACT</h6></i>
         <i class="devicon-sass-original"><h6 class="Skillz-font">SASS</h6></i>
         <i class="devicon-typescript-plain"><h6 class="Skillz-font">TYPESCRIPT</h6></i>
-        <i class="devicon-vscode-plain"><h6 class="Skillz-font">VSCODE</h6></i>
     </div>
+</div>
     <h1>PROJECTS</h1>
     <div class="projectContatiner">
     <!--BlackJack-->
@@ -72,18 +105,21 @@
             </div>
             <img src="/Resources/playing-cards@3x.png" alt="Playing Cards" class="product_img">
         </div>
+
     <!--TimeTable-->
+    
     <div class="card" >
         <div class="circle">
-            <img src="/Resources/clipboard@3x.png" alt="Playing Cards" class="logo">
+            <img src="/Resources/clipboard@3x.png" alt="TimeTable" class="logo">
         </div>
         <div class="content">
-            <h2>BlackJack Game</h2>
-            <p>A BlackJack game I built using React</p>
+            <h2>TimeTable</h2>
+            <p>A Time Table system designed for assigning workers into shifts </p>
             <a href="#">View Project</a>
         </div>
-        <img src="/Resources/clipboard@3x.png" alt="Playing Cards" class="product_img">
+        <img src="/Resources/clipboard@3x.png" alt="TimeTable" class="product_img">
     </div>
+
     <!--Project3-->
     <div class="card" >
         <div class="circle">
@@ -99,20 +135,7 @@
 </div>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+  
     <div class = contact>
         <i class="devicon-facebook-plain"></i>
         <i class="devicon-github-original"></i>
