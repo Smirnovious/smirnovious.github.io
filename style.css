@@ -35,7 +35,11 @@ h1{
 
 /* Nav Bar */
 .navigation {
+<<<<<<< HEAD
     z-index: 1;
+=======
+    
+>>>>>>> 9e81948808b63ee24f37964dc29a9afc04a7fd22
     position: sticky;
     top:0;
     display: flex;
