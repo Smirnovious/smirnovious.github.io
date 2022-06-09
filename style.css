@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow: hidden;
 }
 body {
     text-align: center;
@@ -35,11 +36,7 @@ h1{
 
 /* Nav Bar */
 .navigation {
-<<<<<<< HEAD
     z-index: 1;
-=======
-    
->>>>>>> 9e81948808b63ee24f37964dc29a9afc04a7fd22
     position: sticky;
     top:0;
     display: flex;
@@ -308,7 +305,6 @@ i{
 .content h2 {
     color: #fff;
     text-transform: uppercase;
-    
     line-height: 1em;
 }
 
@@ -491,6 +487,8 @@ i{
     to   { transform: translate(150px, 400px); }    
 }
 
-
+#navigate{
+    color: white;
+}
 
 
