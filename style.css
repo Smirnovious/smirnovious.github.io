@@ -43,8 +43,11 @@ h1{
     height: 50px;
     background-color: #38383b;
     justify-content: space-around;
-    
 }
+nav {
+    display: flex;
+}
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -489,6 +492,88 @@ i{
 
 #navigate{
     color: white;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 700px) {
+    
+    html{
+        scroll-behavior: smooth;
+        overflow: scroll;
+    }
+    .bitmoji1Img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .hi-text{
+        font-size:60px;
+        margin: auto;
+    } 
+
+    .myNameText{
+        font-size:25px;
+    }
+
+    .hi-section{
+        justify-content: center;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .intro-container{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    nav li{
+        font-size: 15px;
+        margin-left: 30px;
+        
+    }
+
+    .navigation{
+        align-items: center;
+    }
+
+    #heb-icon{
+        height: 25px;
+        width: 25px;
+        margin-top: 5px;
+    }
+
+    h1{
+        font-size: 40px;
+        margin-top: 0;
+        
+    }
+
+    .infoAbout{
+        font-size: 15px;
+    }
+
+    .aboutMe-container{
+        flex-direction: column;
+        margin-top: 0;  
+        margin-bottom: 10px; 
+    }
+
+    #realMe{
+        
+    }
+    .skills-section{
+        margin-bottom: 10px;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    i{
+        font-size: 30px;
+    }
+    
 }
 
 
