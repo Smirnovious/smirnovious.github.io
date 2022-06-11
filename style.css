@@ -133,7 +133,7 @@ ul {
 
 /* Skills Section */
 .skills-section{
-    z-index: 0;
+    z-index: -1;
     position: relative;
     background-color: whitesmoke;
     border-radius: 20px;
