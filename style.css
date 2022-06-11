@@ -18,6 +18,7 @@ p {
 h1{
     font-size: 80px;  
     text-decoration: underline; 
+    margin-bottom: 0;
 }
 
 #heb-icon{
@@ -78,7 +79,7 @@ ul {
 .intro-container{
     display: flex;
     justify-content: space-around;
-    margin-bottom: 350px;
+    margin-bottom: 150px;
 }
 .hi-section {
     display: flex;
@@ -101,6 +102,7 @@ ul {
     font-size: 30px;
     top: 0;
 }
+
 /* End Introduction Section */
 
 /*About Me Section */
@@ -109,12 +111,11 @@ ul {
     margin-bottom: 350px;
     display: flex;
     justify-content: space-around;
+   
+    
 }
 #realMe{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    
 }
 
 #about {
@@ -123,7 +124,11 @@ ul {
     text-align: justify;
     background-color: #38c3d9;
     font-size: 5px;   
+    align-items: center;
 }
+
+
+
 /* End of About Me Section */
 
 /* Skills Section */
@@ -354,11 +359,13 @@ i{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+   
+    
     
 }
 
 .ProfileCard:hover{
-    width: 900px;
+    width: 100vw;
     transition-delay: 0s;
 }
 
@@ -422,6 +429,7 @@ i{
     opacity: 1;
     visibility: visible;
     transition-delay: 0.5s;
+    
 }
 
 .contentProfile h2 {
@@ -548,6 +556,7 @@ i{
     h1{
         font-size: 40px;
         margin-top: 0;
+        margin-bottom: 0;
         
     }
 
@@ -558,7 +567,7 @@ i{
     .aboutMe-container{
         flex-direction: column;
         margin-top: 0;  
-        margin-bottom: 10px; 
+        
     }
 
     .skills-section{
@@ -599,6 +608,11 @@ i{
     }
     .skills-section{
         margin-bottom: 170px; 
+    }
+
+    .ProfileCard .ProfileImg{
+        height: 200px;
+        margin-left: 40px;
     }
     
 }
