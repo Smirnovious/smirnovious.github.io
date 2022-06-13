@@ -1,7 +1,7 @@
 html{
     scroll-behavior: smooth;
-    overflow-x: hidden;
-    overflow: hidden;
+    /* verflow-x: hidden;
+    overflow: hidden; */
 }
 body {
     text-align: center;
@@ -519,3 +519,5 @@ i{
     color: white;
 }
 
+
+ 
