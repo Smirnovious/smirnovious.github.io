@@ -1,8 +1,9 @@
 html{
     scroll-behavior: smooth;
-    verflow-x: hidden;
+    overflow-x: hidden;
     overflow: hidden;
 }
+
 body {
     text-align: center;
     font-weight: lighter;
@@ -144,7 +145,7 @@ ul {
 
 /* Skills Section */
 .skills-section{
-    z-index: -1;
+    z-index:1;
     position: relative;
     background-color: whitesmoke;
     border-radius: 20px;
@@ -154,6 +155,7 @@ ul {
 
 }
 .skills {
+    z-index: -1;
     margin-top: 60px;
     display: flex;
     justify-content: space-around;
@@ -489,6 +491,8 @@ i{
 /* Man Floating Animation */
 
 .float {
+    position: relative;
+    z-index: 2;
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -498,7 +502,6 @@ i{
 } 
 
 .floating {  
-    z-index: 2;
     width: 150px;
 	height: 150px;
     animation-name: floating;

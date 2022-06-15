@@ -185,4 +185,8 @@
         font-size: 15px;
         font-family: 'Titillium Web', sans-serif;
     }
+    .float {
+        position: relative;
+        z-index: 2;
+    }
 }

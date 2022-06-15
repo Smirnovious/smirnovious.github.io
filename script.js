@@ -1,4 +1,5 @@
 
+window.alert('This Portfolio is Still in Beta Version, Some Links/Features Wont work!')
 function myFunction() {
     const myElement = document.getElementById("about");
     myElement.style.visibility = "hidden"; 
